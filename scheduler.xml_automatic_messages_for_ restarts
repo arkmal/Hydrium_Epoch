@@ -1,0 +1,286 @@
+<Scheduler>
+
+<job id="0">
+<time>001000</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>loadbans</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="1">
+<time>001000</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 THIS IS A COMBAT ZONE ! PvP REQUIRED !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="2">
+<time>001000</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 NO CRYING, JUST PLAY ! </cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="3">
+<time>001500</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 Admins : Team DZY</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="4">
+<time>002000</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 Please respect other players.</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="5">
+<time>002500</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 Hackers beware! We are always watching.</cmd>
+<cmdtype>0</cmdtype>
+</job>	
+
+<!-- RESTART 04.00-->
+
+<job id="6">
+<time>02:30:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 30 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+
+<job id="7">
+<time>02:55:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 5 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="8">
+<time>02:58:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 2 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="9">
+<time>02:59:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 1mn ! LOG OUT NOW !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!-- RESTART 08.00-->
+
+<job id="10">
+<time>06:30:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 30 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="11">
+<time>06:55:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 5 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="12">
+<time>06:58:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 2 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="13">
+<time>06:59:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 1mn ! LOG OUT NOW !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!-- RESTART 12.00-->
+
+<job id="14">
+<time>10:30:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 30 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="15">
+<time>10:55:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 5 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="16">
+<time>10:58:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 2 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="17">
+<time>10:59:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 1mn ! LOG OUT NOW !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!-- RESTART 16.00-->
+
+<job id="18">
+<time>14:30:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 30 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="19">
+<time>14:55:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 5 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="20">
+<time>14:58:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 2 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="21">
+<time>14:59:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 1mn ! LOG OUT NOW !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!-- RESTART 20.00-->
+
+<job id="22">
+<time>18:30:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 30 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="23">
+<time>18:55:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 5 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="24">
+<time>18:58:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 2 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="25">
+<time>18:59:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 1mn ! LOG OUT NOW !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<!-- RESTART 00.00-->
+
+<job id="26">
+<time>22:30:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 30 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="27">
+<time>22:55:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 5 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="28">
+<time>22:58:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 2 mn !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+<job id="29">
+<time>22:59:00</time>
+<delay>000000</delay> 
+<day>1,2,3,4,5,6,7</day>
+<loop>1</loop>
+<cmd>say -1 RESTART 1mn ! LOG OUT NOW !</cmd>
+<cmdtype>0</cmdtype>
+</job>
+
+</Scheduler>
