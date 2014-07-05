@@ -98,6 +98,17 @@ _debugMarkerName setMarkerText "Military";
 
 //diag_log(format["Creating ammo box at %1", _loot_pos]);
 
+// Create ammo box
+_loot_box = createVehicle ["USVehicleBox",_loot_pos,[], 0, "NONE"];
+_loot_box setVariable ["permaLoot",true];//Required to remove from Epoch loot cleaning process.
+clearMagazineCargoGlobal _loot_box;
+clearWeaponCargoGlobal _loot_box;
+
+// Cut the grass around the loot position
+_clutter = createVehicle ["ClutterCutter_small_2_EP1", _loot_pos, [], 0, "CAN_COLLIDE"];
+_clutter setPos _loot_pos;
+// cut the grass    end
+
 //Create Visible Marker with SMOKE
 
 _dayTime = dayTime;
@@ -112,16 +123,6 @@ _smokeMarker setPosATL (getPosATL _loot_box);
 _smokeMarker attachTo [_loot_box, [0,0,0]];
 };
 
-// Create ammo box
-_loot_box = createVehicle ["USVehicleBox",_loot_pos,[], 0, "NONE"];
-_loot_box setVariable ["permaLoot",true];//Required to remove from Epoch loot cleaning process.
-clearMagazineCargoGlobal _loot_box;
-clearWeaponCargoGlobal _loot_box;
-
-// Cut the grass around the loot position
-_clutter = createVehicle ["ClutterCutter_small_2_EP1", _loot_pos, [], 0, "CAN_COLLIDE"];
-_clutter setPos _loot_pos;
-// cut the grass    end
 
 // Add loot
 {
