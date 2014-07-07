@@ -106,5 +106,14 @@ AllowedVehiclesList = [
 ["Volha_2_TK_CIV_EP1",3],
 ["VWGolf",3],
 ["Zodiac",3],
-["CH53_DZE",1]
+["CH53_DZE",1],
+["pook_H13_civ_ru",1],
+["pook_H13_civ_ru_white",1],
+["pook_H13_civ_ru_slate",1],
+["pook_H13_civ_ru_black",1],
+["pook_H13_civ_ru_yellow",1],
+["pook_H13_transport",1],
+["pook_H13_gunship",1],
+["pook_H13_medevac",1],
+["pook_H13_medevac_CIV_RU",1]
 ];
