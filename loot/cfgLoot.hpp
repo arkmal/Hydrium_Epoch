@@ -379,7 +379,7 @@ class CfgLoot {
 		,{"Remington870_lamp",0.1}
 		,{"Crossbow_DZ",0.07}
 		,{"huntingrifle",0.05}
-		,{"Chainsaw",0.01}
+		,{"Chainsaw",0.04}
 	};
 	sniperrifles[] = {
 		{"AK_107_PSO",0.1}
