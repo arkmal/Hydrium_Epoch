@@ -165,10 +165,10 @@ class CfgBuildingLoot {
 		lootType[] = {
 			{"ItemGenerator","magazine",0.08},
 			{"ItemFuelBarrelEmpty","magazine",0.07},
-			{"","generic",0.10},
-			{"","trash",0.10},
+			{"","generic",0.03},
+			{"","trash",0.04},
 			{"","military",0.04},
-			{"PartGeneric","magazine",0.06},
+			{"PartGeneric","magazine",0.12},
 			{"PartWheel","magazine",0.09},
 			{"PartFueltank","magazine",0.05},
 			{"PartEngine","magazine",0.05},
@@ -181,13 +181,13 @@ class CfgBuildingLoot {
 			{"ItemWire","magazine",0.03},
 			{"ItemTankTrap","magazine",0.04},
 			{"ItemKeyKit","weapon",0.01},
-			{"CinderBlocks","magazine",0.10},
+			{"CinderBlocks","magazine",0.13},
 			{"MortarBucket","magazine",0.10}
 		};
 		lootTypeSmall[] = {
 			{ "","generic",0.5 },
-			{ "","trash",0.10 },
-			{ "","military",0.14 },
+			{ "","trash",0.04 },
+			{ "","military",0.03 },
 			{ "ItemKnife","weapon",0.07 },
 			{ "ItemKeyKit","weapon",0.02 }
 		};
@@ -263,7 +263,7 @@ class CfgBuildingLoot {
 		};
 	};
 	class Supermarket: Default {
-		lootChance = 0.6;
+		lootChance = 0.8;
 		minRoaming = 2;
 		maxRoaming = 6;
 		zombieChance = 0.3;
@@ -303,7 +303,7 @@ class CfgBuildingLoot {
 			{ "","food",0.24 },
 			{ "","trash",0.16 },
 			{ "Binocular","weapon",0.02 },
-			{ "ItemMixOil", "magazine",0.02}
+			{ "ItemMixOil", "magazine",0.04}
 		};
 	};
 	class HeliCrash: Default {
@@ -387,7 +387,7 @@ class CfgBuildingLoot {
 			{"","generic",0.1},
 			{"","military",0.3},
 			{"ItemEtool","weapon",0.02},
-			{"ItemSandbag","magazine",0.02},
+			{"ItemSandbag","magazine",0.10},
 			{ "machineguns", "cfglootweapon", 0.03 }
 		};
 		lootTypeSmall[] = {
@@ -476,7 +476,7 @@ class CfgBuildingLoot {
 			{"","generic",0.25},
 			{"","military",0.07},
 			{"ItemEtool","weapon",0.03},
-			{"ItemSandbag","magazine",0.02},
+			{"ItemSandbag","magazine",0.10},
 			{"ItemFuelBarrelEmpty","magazine",0.03},
 			{"fuel_pump_kit","magazine",0.01},
 			{ "machineguns", "cfglootweapon", 0.01 }
