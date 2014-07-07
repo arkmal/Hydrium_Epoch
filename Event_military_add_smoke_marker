@@ -109,8 +109,16 @@ _clutter = createVehicle ["ClutterCutter_small_2_EP1", _loot_pos, [], 0, "CAN_CO
 _clutter setPos _loot_pos;
 // cut the grass    end
 
-//Create Visible Marker with SMOKE
 
+// Add loot
+{
+_loot_box addWeaponCargoGlobal [_x,1];
+} forEach (_loot select 0);
+{
+_loot_box addMagazineCargoGlobal [_x,1];
+} forEach (_loot select 1);
+
+//Create Visible Marker with SMOKE
 _dayTime = dayTime;
 if (_dayTime > 6 && _dayTime < 18.5) then {
 _smokeMarker = "SmokeShellRed" createVehicle getPosATL _loot_box;
@@ -122,15 +130,6 @@ _smokeMarker = "ARTY_Flare_Medium" createVehicle getPosATL _loot_box;
 _smokeMarker setPosATL (getPosATL _loot_box);
 _smokeMarker attachTo [_loot_box, [0,0,0]];
 };
-
-
-// Add loot
-{
-_loot_box addWeaponCargoGlobal [_x,1];
-} forEach (_loot select 0);
-{
-_loot_box addMagazineCargoGlobal [_x,1];
-} forEach (_loot select 1);
 
 // Send center message to users 
 
