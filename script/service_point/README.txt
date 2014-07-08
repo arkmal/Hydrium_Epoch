@@ -1,5 +1,6 @@
 Credits :
 Axe Cop
+Remixed by Arkmal : No ream / Prices from refuel and repair
 
 Main Features:
 dynamic service points where you are able to select the options (default at every fuel station, if you want it's easy to add the epoch fuel pumps so you can build a service point in your base, you can also add vehicles or units if you want, like a NPC trader)
