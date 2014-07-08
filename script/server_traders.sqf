@@ -199,7 +199,7 @@ menu_pook_Doc_Bell47 = [
 
 //Gems
 menu_US_Delta_Force_Undercover_Takistani06_EP1 = [
-	[["Gemstones",700]],
+	[["Gemstones",700],["Weed Haschish",701]],
 	[],
 	"neutral"
 ];
