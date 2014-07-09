@@ -1,17 +1,17 @@
 class Category_519 {
 	class Mi17_Civilian_DZ {
 		type = "trade_any_vehicle";
-		buy[] = {5,"ItemBriefcase100oz"};
+		buy[] = {4,"ItemBriefcase100oz"};
 		sell[] = {8,"ItemGoldBar10oz"};
 	};
 	class AH6X_DZ {
 		type = "trade_any_vehicle";
-		buy[] = {2,"ItemBriefcase100oz"};
-		sell[] = {5,"ItemGoldBar10oz"};
+		buy[] = {5,"ItemGoldBar10oz"};
+		sell[] = {1,"ItemGoldBar10oz"};
 	};
 	class MH6J_DZ {
 		type = "trade_any_vehicle";
-		buy[] = {2,"ItemBriefcase100oz"};
+		buy[] = {1,"ItemBriefcase100oz"};
 		sell[] = {5,"ItemGoldBar10oz"};
 	};
 	class CSJ_GyroC {
@@ -36,37 +36,37 @@ class Category_519 {
 	};
 	class pook_H13_civ_ru {
 		type = "trade_any_vehicle";
-		buy[] = {3,"ItemBriefcase100oz"};
+		buy[] = {2,"ItemBriefcase100oz"};
 		sell[] = {5,"ItemGoldBar10oz"};
 	};
 	class pook_H13_civ_ru_white {
 		type = "trade_any_vehicle";
-		buy[] = {3,"ItemBriefcase100oz"};
+		buy[] = {2,"ItemBriefcase100oz"};
 		sell[] = {5,"ItemGoldBar10oz"};
 	};
 	class pook_H13_civ_ru_slate {
 		type = "trade_any_vehicle";
-		buy[] = {3,"ItemBriefcase100oz"};
+		buy[] = {2,"ItemBriefcase100oz"};
 		sell[] = {5,"ItemGoldBar10oz"};
 	};
 	class pook_H13_civ_ru_black {
 		type = "trade_any_vehicle";
-		buy[] = {3,"ItemBriefcase100oz"};
+		buy[] = {2,"ItemBriefcase100oz"};
 		sell[] = {5,"ItemGoldBar10oz"};
 	};
 	class pook_H13_civ_ru_yellow {
 		type = "trade_any_vehicle";
-		buy[] = {3,"ItemBriefcase100oz"};
+		buy[] = {2,"ItemBriefcase100oz"};
 		sell[] = {5,"ItemGoldBar10oz"};
 	};
 	class pook_H13_medevac {
 		type = "trade_any_vehicle";
-		buy[] = {3,"ItemBriefcase100oz"};
+		buy[] = {2,"ItemBriefcase100oz"};
 		sell[] = {5,"ItemGoldBar10oz"};
 	};
 	class pook_H13_medevac_CIV_RU {
 		type = "trade_any_vehicle";
-		buy[] = {3,"ItemBriefcase100oz"};
+		buy[] = {2,"ItemBriefcase100oz"};
 		sell[] = {5,"ItemGoldBar10oz"};
 	};
 };
