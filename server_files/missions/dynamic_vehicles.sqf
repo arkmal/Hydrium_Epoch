@@ -113,7 +113,7 @@ AllowedVehiclesList = [
 ["pook_H13_civ_ru_white",1],  // CIV_RU - White
 ["pook_H13_civ_ru_slate",1],  // CIV_RU - Slate Blue
 ["pook_H13_civ_ru_black",1],  // CIV_RU - Black
-["pook_H13_civ_ru_yellow",1]  // CIV_RU - Yellow
+["pook_H13_civ_ru_yellow",1],  // CIV_RU - Yellow
 ["pook_H13_gunship",1],
 ["pook_H13_transport",1]
 ];
