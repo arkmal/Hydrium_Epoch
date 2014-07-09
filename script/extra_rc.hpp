@@ -49,8 +49,8 @@ class ExtraRc {
     };
 	class ItemKiloHemp {
         class smokeweed {
-            text = "Smoke the shit";
-            script = "execVM ""script\smokeshit.sqf""";";
+            text = "Smoke Weed";
+            script = "execVM ""script\smokeshit.sqf"";";
         };
 	};
 };
