@@ -222,8 +222,12 @@ if (_hasrequireditem) then {
 
 	_objHDiff = 0;
 
-if (isClass (missionConfigFile >> "SnapBuilding" >> _classname)) then {	
-	["","","",["Init",_object,_classname,_objectHelper]] spawn snap_build;
+if (isClass (missionConfigFile >> "SnapBuilding" >> _classname)) then {
+	if(!DZE_SNAP_PRO_USE_COMMAND_MENU) then {
+		["","","",["Init",_object,_classname,_objectHelper]] spawn snap_build;
+	} else {
+		["Init",_object,_classname,_objectHelper] spawn snap_build;
+	};
 };
 	
 	while {_isOk} do {
@@ -376,20 +380,20 @@ if (isClass (missionConfigFile >> "SnapBuilding" >> _classname)) then {
 			deleteVehicle _objectHelper;
 		};
 
-		if(_location1 distance _location2 > 20) exitWith {
+		if(_location1 distance _location2 > 10) exitWith {
 			_isOk = false;
 			_cancel = true;
-			_reason = "You've moved to far away from where you started building (within 20 meters)";
+			_reason = "You've moved to far away from where you started building (within 10 meters)";
 			detach _object;
 			deleteVehicle _object;
 			detach _objectHelper;
 			deleteVehicle _objectHelper;
 		};
 
-		if(abs(_objHDiff) > 20) exitWith {
+		if(abs(_objHDiff) > 10) exitWith {
 			_isOk = false;
 			_cancel = true;
-			_reason = "Cannot move up or down more than 20 meters";
+			_reason = "Cannot move up or down more than 10 meters";
 			detach _object;
 			deleteVehicle _object;
 			detach _objectHelper;
